@@ -1,0 +1,40 @@
+/* recent projects css */
+
+.recent-projects .heading{
+    margin-top: -4.5rem !important;
+    margin-bottom: 4rem;
+}
+
+.recent-projects .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.recent-projects .box-container .box{
+    padding: 2.5rem 1rem;
+    border: var(--border-light);
+}
+
+.recent-projects .box-container .box i{
+    font-size: 5rem;  
+}
+
+
+.recent-projects .box-container .box h3{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.recent-projects .box-container .box p{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.recent-projects .box-container .box .btn{
+    font-size: 1.5rem;
+}
